@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+
+    src:
+    local("Noto Sans CJK JP")
+    url(//.font.gstatic.com/ea/notsansjp/v5/NotoSansJP-Reegular.woff2)format('woff2'),
+    url(//.font.gstatic.com/ea/notsansjp/v5/NotoSansJP-Reegular.woff)format('woff'),
+    url(//.font.gstatic.com/ea/notsansjp/v5/NotoSansJP-Reegular.otf)format('opentype');
+}
+
+html{
+    font-size:62.5%; /*16px×62.5％＝10px*/
+}
+
+body{
+    font-size: 1.6rem;
+    width: 100%;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+/*********************
+スタイルリセット
+*********************/
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 5px;
+}
+
+
+/*********************
+list
+*********************/
+.list{
+    width: 400px;
+    padding: 20px;
+    background: #000;
+    box-sizing: border-box;
+}
+.list_title{
+    font-weight: bold;
+    font-size: 2.0rem;
+    margin-bottom: 30px;
+}
+
+.list-item{
+    padding: 5px 5px;
+}
+.list_label{
+    margin-bottom: 30px;
+}
+
+/*********************
+Main
+*********************/
+.main{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+/*********************
+MAP
+*********************/
+.map{
+    width: 800px;
+    height: 700px;
+}
+
+/*********************
+table
+*********************/
+.table{
+    border: 1px;
+}
+
+.table_tr{
+    border: 1px;
+    margin-bottom: 10px;
+}
+
+.table_th{
+    border: 1px;
+    font-weight: bold;
+}
+
+.table_td{
+    border: 3px;
+    background-color: #00ff15;
+}
+/*********************
+btn
+*********************/
+.btn_update{
+    margin-top: 30px;
+}
